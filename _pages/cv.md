@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Click [here](/files/CV.pdf) for PDF version
+Click [here](/files/CV.pdf) for PDF version.
 
 Education
 ======
@@ -24,6 +24,7 @@ The [Sensing and Networking Systems (SENS)](https://www.epfl.ch/labs/sens/) lab 
   * Synchronizing multiple AWR2243 radars to achieve coherent processing and enable a larger virtual array
   * Modified PCB design of AWR2243 single-chip radar to include connectors required for finer frequency synchronization
 <br/>
+<br/>
 
 * **Spectrum Sensing** \
 (Guide: [Dr. David Koilpillai](https://www.ee.iitm.ac.in/~koilpillai/), Dept. of Electrical Engineering, IIT Madras) \
@@ -31,6 +32,7 @@ Spectrum Sensing is my Bachelor's Thesis project. This project focuses on sensin
   * Implemented traditional band hopping spectrum sensing using energy-based detection on a USRP B210
   * Periodically ramping the Local Oscillator’s center frequency to scan the spectrum at a high rate
   * Scanning the spectrum with variable bandwidth in order to gain more insights on regions with more activity 
+<br/>
 <br/>
 
 * **Automatic RF Circuit Synthesis** \
@@ -47,6 +49,7 @@ Professional Experience
   * Responsible for an accurate real-life training system for neurosurgeons performing brain aneurysm operations
   * Developed code for firmware update and shifting firmware from USART to USB OTG FS communication protocol
   * Tested and debugged my code with actual hardware interfaced with software and documented the results 
+<br/>
 <br/>
 
 * **Low Voltage Subsystem Engineer - Raftar Formula Racing** \
