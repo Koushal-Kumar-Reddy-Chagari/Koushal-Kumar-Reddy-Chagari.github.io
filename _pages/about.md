@@ -10,4 +10,4 @@ redirect_from:
 
 Hi! 
 
-I am Koushal, a final-year undergraduate in the Department of Electrical Engineering at IIT Madras. I am passionate about wireless communication, networking, and sensing. I am applying for a PhD in the Fall 2024 admission cycle to various universities.
+I am Koushal, a final-year undergraduate in the Department of Electrical Engineering at IIT Madras. I am passionate about wireless communication, networking, and sensing. I aim to pursue a Ph.D at a prestigious university in the United States. I desire to work in industrial R&D after grad school.
