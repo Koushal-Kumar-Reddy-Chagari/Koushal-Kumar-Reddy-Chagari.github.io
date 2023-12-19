@@ -18,7 +18,7 @@ Education
 Research Experience
 ======
 * **Radar Synchronization - Summer@EPFL** \
-(Guide: [Dr. Haitham Hassanieh](https://people.epfl.ch/haitham.alhassanieh?lang=en), SENS Lab, School of Computer and Communication Sciences, EPFL) \
+(Guide: [Dr. Haitham Al Hassanieh](https://people.epfl.ch/haitham.alhassanieh?lang=en), SENS Lab, School of Computer and Communication Sciences, EPFL) \
 The [Sensing and Networking Systems (SENS)](https://www.epfl.ch/labs/sens/) lab focuses on wireless imaging for autonomous vehicles, wireless networking, and next-generation wireless networks. I worked on the time and frequency synchronization of radars.
   * Built a custom circuit to generate a hardware trigger for time synchronization
   * Synchronizing multiple AWR2243 radars to achieve coherent processing and enable a larger virtual array
