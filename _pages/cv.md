@@ -37,6 +37,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+<!---
 Relevant Courses
 ======
 * EE6110: Adaptive Signal Processing
@@ -53,7 +54,6 @@ Relevant Courses
 * EE3004: Control Systems
 * EE2016: Microprocessor Theory and Lab
 
-<!---
 Publications
 ======
   <ul>{% for post in site.publications %}
