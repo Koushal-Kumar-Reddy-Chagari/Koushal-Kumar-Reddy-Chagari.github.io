@@ -23,8 +23,8 @@ The [Sensing and Networking Systems (SENS)](https://www.epfl.ch/labs/sens/) lab 
   * Built a custom circuit to generate a hardware trigger for time synchronization
   * Synchronizing multiple AWR2243 radars to achieve coherent processing and enable a larger virtual array
   * Modified PCB design of AWR2243 single-chip radar to include connectors required for finer frequency synchronization
-  
-    
+
+
 * **Spectrum Sensing** \
 (Guide: [Dr. David Koilpillai](https://www.ee.iitm.ac.in/~koilpillai/), Dept. of Electrical Engineering, IIT Madras) \
 Spectrum Sensing is my Bachelor's Thesis project. This project focuses on sensing the spectrum as fast as possible with the most cost-effective equipment. I am implementing [SweepSense](https://www.usenix.org/conference/nsdi19/presentation/guddeti), which uses sweeping capture and calibration to sense the spectrum. I am exploring further alternatives to energy-based detection like Cyclostationarity and Kurtosis. I am also examining [SparSDR](https://wcsng.ucsd.edu/sparsdr/) to utilize the reduced backhaul for implementing a mobile spectrum scanner on a drone.
@@ -32,7 +32,7 @@ Spectrum Sensing is my Bachelor's Thesis project. This project focuses on sensin
   * Periodically ramping the Local Oscillator’s center frequency to scan the spectrum at a high rate
   * Scanning the spectrum with variable bandwidth in order to gain more insights on regions with more activity 
 
-   
+
 * **Automatic RF Circuit Synthesis** \
 (Guide: [Dr. Sankaran Aniruddhan](https://www.ee.iitm.ac.in/ani/), Dept. of Electrical Engineering, IIT Madras) \
 Designing schematics of RF circuits is a slow iterative process involving non-idealities and parasitics. Automation of circuit design allows an IC designer to move directly to the layout section of the design workflow. In this project, I worked on simulation and automating the optimization of Capacitor Cross-Coupled CG LNA in the TSMC 65nm process. My work resulted in a 6 GHz LNA with >25 dB Gain and 2.5 dB Noise Figure.
@@ -48,7 +48,7 @@ Professional Experience
   * Developed code for firmware update and shifting firmware from USART to USB OTG FS communication protocol
   * Tested and debugged my code with actual hardware interfaced with software and documented the results 
 
-   
+
 * **Low Voltage Subsystem Engineer - Raftar Formula Racing** \
 [Raftar Formula Racing](https://cfi.iitm.ac.in/competition-teams/raftar-formula-racing) is the Formula Student team of IIT Madras. Its vision is to build an electric car from scratch. I was responsible for designing the shutdown and safety circuits for the proper performance of the electric car. I contributed to various design decisions for designing PCBs and developing 3D harness for the electric car. We competed as a team of fifty students and were winners of the Best Powertrain Award and the Overall winners in Formula Bharat'21. \
   * Created the Brake System Plausibility Device PCB as part of the shutdown circuit for detecting faulty brake pedal
