@@ -26,9 +26,9 @@ The [Sensing and Networking Systems (SENS)](https://www.epfl.ch/labs/sens/) lab 
 <br/>
 <br/>
 
-* **Spectrum Sensing** \
+* **Spectrum Scanner** \
 (Guide: [Dr. David Koilpillai](https://www.ee.iitm.ac.in/~koilpillai/), Dept. of Electrical Engineering, IIT Madras) \
-Spectrum Sensing is my Bachelor's Thesis project. This project focuses on sensing the spectrum as fast as possible with the most cost-effective equipment. I am implementing [SweepSense](https://www.usenix.org/conference/nsdi19/presentation/guddeti), which uses sweeping frequency downconversion and calibration to sense the spectrum. I am exploring further alternatives to energy-based detection like Cyclostationarity and Kurtosis. I am also examining [SparSDR](https://wcsng.ucsd.edu/sparsdr/), which achieves sparsity proportional scaling of backhaul bandwidth and compute power. I plan to utilize the reduced backhaul to implement a mobile spectrum scanner on a drone.
+Spectrum Scanner is my Bachelor's Thesis project. This project focuses on sensing the spectrum as fast as possible with the most cost-effective equipment. I am implementing [SweepSense](https://www.usenix.org/conference/nsdi19/presentation/guddeti), which uses sweeping frequency downconversion and calibration to sense the spectrum. I am exploring further alternatives to energy-based detection like Cyclostationarity and Kurtosis. I am also examining [SparSDR](https://wcsng.ucsd.edu/sparsdr/), which achieves sparsity proportional scaling of backhaul bandwidth and compute power. I plan to utilize the reduced backhaul to implement a mobile spectrum scanner on a drone.
   * Implemented traditional band hopping spectrum sensing using energy-based detection on a USRP B210
   * Periodically ramping the Local Oscillator’s center frequency to scan the spectrum at a high rate
   * Scanning the spectrum with variable bandwidth in order to gain more insights on regions with more activity 
