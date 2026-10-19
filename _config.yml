@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Koushal Kumar Reddy Chagari"
   avatar           : "photo_with_winter_coat_crop.jpeg"
-  bio              : "Final Year Undergraduate"
-  location         : "Chennai, TN"
+  bio              : "PhD at UT Austin"
+  location         : "Austin, TX"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "ee20b023@smail.iitm.ac.in"
+  googlescholar    : "https://scholar.google.com/citations?user=LA3qn-sAAAAJ&hl=en&oi=ao"
+  email            : "koushal.chagari@utexas.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

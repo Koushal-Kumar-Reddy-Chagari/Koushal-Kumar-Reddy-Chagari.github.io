@@ -7,7 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi!
 
-Hi! 
+I am Koushal. I am an ECE Ph.D. student at UT Austin specializing in wireless communications as part of the Decision, Information and Communication Engineering (DICE) Track. I am fortunate to be advised by [Prof. Jeffrey Andrews](https://sites.utexas.edu/jandrews/) and [Prof. Kaushik Chowdhury](https://genesys-lab.org/). I am passionate about machine learning and wireless communication.
 
-I am Koushal, a final-year undergraduate in the Department of Electrical Engineering at IIT Madras. I am passionate about wireless communication, networking, and sensing. I aim to pursue a Ph.D at a prestigious university in the United States. I desire to work in industrial R&D after grad school.
+I completed my undergraduate studies in Electrical Engineering at IIT Madras. My bachelor's thesis focused on developing a localization system for ATSC 3.0 broadcast waveforms, leveraging the vast network of HPHT towers across the country.
+
+I am motivated especially by challenging problems and fascinated by elegant solutions.

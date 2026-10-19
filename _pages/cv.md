@@ -13,90 +13,86 @@ Click [here](/files/CV.pdf) for PDF version.
 
 Education
 ======
-* B.Tech (Honors) Electrical Engineering, Indian Institute of Technology Madras, 2024 (expected)
+* **M.S. & Ph.D. in Electrical and Computer Engineering, University of Texas at Austin** (Aug 2024 – Present) \
+Wireless Networking and Communications Group (WNCG) | GPA: 3.95/4 \
+Advisors: [Prof. Jeffrey Andrews](https://sites.utexas.edu/jandrews/) & [Prof. Kaushik Chowdhury](https://genesys-lab.org/)
 
-Research Experience
+* **B.Tech (Honors) in Electrical Engineering, Indian Institute of Technology Madras** (Nov 2020 – Jul 2024) \
+CGPA: 9.82/10 | Department Rank: 1
+
+3GPP Contribution
 ======
-* **Radar Synchronization - Summer@EPFL** \
-(Guide: [Dr. Haitham Al Hassanieh](https://people.epfl.ch/haitham.alhassanieh?lang=en), SENS Lab, School of Computer and Communication Sciences, EPFL) \
-The [Sensing and Networking Systems (SENS)](https://www.epfl.ch/labs/sens/) lab focuses on wireless imaging for autonomous vehicles, wireless networking, and next-generation wireless networks. I worked on the time and frequency synchronization of radars.
-  * Built a custom circuit to generate a hardware trigger for time synchronization
-  * Synchronizing multiple AWR2243 radars to achieve coherent processing and enable a larger virtual array
-  * Modified PCB design of AWR2243 single-chip radar to include connectors required for finer frequency synchronization
-<br/>
-<br/>
+* Performed Rel-20 6G ISAC evaluation on sensing-assisted communication (SAC) for AT&T's 3GPP contributions
 
-* **Spectrum Scanner** \
-(Guide: [Dr. David Koilpillai](https://www.ee.iitm.ac.in/~koilpillai/), Dept. of Electrical Engineering, IIT Madras) \
-Spectrum Scanner is my Bachelor's Thesis project. This project focuses on sensing the spectrum as fast as possible with the most cost-effective equipment. I am implementing [SweepSense](https://www.usenix.org/conference/nsdi19/presentation/guddeti), which uses sweeping frequency downconversion and calibration to sense the spectrum. I am exploring further alternatives to energy-based detection like Cyclostationarity and Kurtosis. I am also examining [SparSDR](https://wcsng.ucsd.edu/sparsdr/), which achieves sparsity proportional scaling of backhaul bandwidth and compute power. I plan to utilize the reduced backhaul to implement a mobile spectrum scanner on a drone.
-  * Implemented traditional band hopping spectrum sensing using energy-based detection on a USRP B210
-  * Periodically ramping the Local Oscillator’s center frequency to scan the spectrum at a high rate
-  * Scanning the spectrum with variable bandwidth in order to gain more insights on regions with more activity 
-<br/>
-<br/>
-
-* **Automatic RF Circuit Synthesis** \
-(Guide: [Dr. Sankaran Aniruddhan](https://www.ee.iitm.ac.in/ani/), Dept. of Electrical Engineering, IIT Madras) \
-Designing schematics of RF circuits is a slow iterative process involving non-idealities and parasitics. Automation of circuit design allows an IC designer to move directly to the layout section of the design workflow. In this project, I worked on simulation and automating the optimization of Capacitor Cross-Coupled CG LNA in the TSMC 65nm process. My work resulted in a 6 GHz LNA with >25 dB Gain and 2.5 dB Noise Figure.
-  * Automated RF circuit design process which significantly reduces the design time of RF front-ends like LNAs, Mixers
-  * Used Gradient Descent Algorithm to achieve the minimum of a custom loss function based on specifications
-  * Optimized the design of Capacitor Cross Coupled CG LNA in TSMC 65nm process using Cadence Virtuoso
-
-Professional Experience
+Research Projects
 ======
-* **Embedded Software Developer - Curneu MedTech Pvt Ltd** \
-[Curneu](https://www.curneu.com/) is a healthcare technology firm focused on building affordable and innovative healthcare solutions that address clinical needs. My work made it possible to integrate hardware & software aspects and to produce the first batch of neurosurgeon training machines. \
-  * Responsible for an accurate real-life training system for neurosurgeons performing brain aneurysm operations
-  * Developed code for firmware update and shifting firmware from USART to USB OTG FS communication protocol
-  * Tested and debugged my code with actual hardware interfaced with software and documented the results 
-<br/>
-<br/>
+* **Generative Models for FR3 Channels & Digital Twin Validation** (Aug 2024 – Present) \
+(Advisors: [Dr. Jeffrey Andrews](https://sites.utexas.edu/jandrews/) & [Dr. Kaushik Chowdhury](https://genesys-lab.org/), WNCG, [6G@UT](https://wncg.org/about-6gut), AT&T Labs, UT Austin)
+  * Developed an **MPC-domain** physics-grounded generative modeling framework for real-world FR3 measurements
+  * Outperformed channel-domain generative modeling by 60% and off-the-shelf **Sionna OSM** ray tracing by 71%
 
-* **Low Voltage Subsystem Engineer - Raftar Formula Racing** \
-[Raftar Formula Racing](https://cfi.iitm.ac.in/competition-teams/raftar-formula-racing) is the Formula Student team of IIT Madras. Its vision is to build an electric car from scratch. I was responsible for designing the shutdown and safety circuits for the proper performance of the electric car. I contributed to various design decisions for designing PCBs and developing 3D harness for the electric car. We competed as a team of fifty students and were winners of the Best Powertrain Award and the Overall winners in Formula Bharat'21. \
-  * Created the Brake System Plausibility Device PCB as part of the shutdown circuit for detecting faulty brake pedal
-  * Designed the HV check PCB to check if the voltage in the battery pack has exceeded 60V to indicate HV status
-  * Developed the entire car 2D harness which involved interconnections across multiple system modules
-  * Analyzed placement of various components so that routing is efficient, cost-effective, and follows clearance rules
-  * Routed wires through anchored conduits for protection, added redundancy wiring for robust failure management
+* **Bachelor's Thesis – Broadcast Positioning System using ATSC 3.0** (Jan 2024 – Jun 2024) \
+(Advisor: [Dr. Giridhar K](https://www.ee.iitm.ac.in/giri/), Telecommunication and Wireless Sensing – [TelWiSe Group](https://ee.iitm.ac.in/TelWiSe/), IIT Madras)
+  * Developed an **alternate PNT system** to GPS, leveraging HPHT broadcast towers for bandlimited ATSC systems
+  * Simulated a hybrid algorithm based on matched filtering and **ESPRIT** to achieve RMSE of < 0.6 m
 
-Teaching
+* **Summer@EPFL Research Internship – Radar Synchronization** (May 2023 – Aug 2023) \
+(Advisor: [Dr. Haitham Al Hassanieh](https://people.epfl.ch/haitham.alhassanieh?lang=en), [Sensing and Networking Systems – SENS Lab](https://www.epfl.ch/labs/sens/), EPFL)
+  * Synchronized two AWR2243 radars to achieve **coherent processing** and enable a larger virtual array
+  * Customized PCB design of AWR2243 single-chip radar to include connectors required for finer clock synchronization
+
+* **Automatic CCC-CG LNA Circuit Synthesis in TSMC 65 nm Process** (Aug 2022 – May 2023) \
+(Advisor: [Dr. S. Aniruddhan](https://www.ee.iitm.ac.in/ani/), Dept. of Electrical Engineering, IIT Madras)
+
+* **Design of Low Voltage Subsystem Module – Formula SAE** (May 2021 – Feb 2022) \
+(Advisor: Dr. Satyanarayanan Seshadri, Dept. of Applied Mechanics, IIT Madras)
+
+Industry Experience
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* **Environment Sensing Using 6G ISAC, AT&T Labs, Austin** (Jun 2026 – Aug 2026)
+  * Developed bistatic Doppler filtering for multi-bounce rejection and RF point cloud processing pipeline
+  * Augmented RF mesh with Google Maps mesh to demonstrate continually updatable geospatial digital twins
 
-<!---
+* **ISAC Analysis Internship, AT&T Labs, Austin** (Jun 2025 – Aug 2025)
+  * Developed detection and tracking algorithms for ISAC measurements in the FR3 band at 14.5 GHz
+  * Explored OFDM resource allocation trade-offs in terms of bandwidth, sampling rate, duty cycle for sensing accuracy
+
+* **Embedded Software Developer – Curneu MedTech Pvt Ltd** (Dec 2021 – Jan 2022)
+  * Designed an accurate **real-life training system** for neurosurgeons performing brain aneurysm operations
+
+Scholastic Achievements
+======
+* Awarded the **Cockrell Graduate School Fellowship** for being among the best PhD applicants to UT Austin
+* Awarded the **Siemens Prize** for the graduating B.Tech student with best academic record in Electrical Engineering
+* Awarded the **Summer@EPFL** Fellowship, among a cohort of 50 students from across the world
+* Awarded **Ramasarma V Kolluri Memorial Prize** for the highest CGPA in the third year of Electrical Engineering
+* Awarded **B Jayant Baliga Scholarship** twice for the best academic record in 2<sup>nd</sup>, 3<sup>rd</sup> years of Electrical Engineering
+* Awarded **Sri V Rajagopalan Memorial Prize** for the highest CGPA in the second year of Electrical Engineering
+* Awarded **M Shankaraiah and M Sarada Scholarship** for the best academic performance in my sophomore year
+* Awarded **Sri K Krishnamurthi Award** for the second-highest CGPA in the academic year 2020-21
+* Awarded **Notional Award** for being among the top 7% of students admitted to IIT Madras on the basis of JEE rank
+* Nominated for **OPJEMS Scholarship** twice in 2021 and 2022 for academic and leadership excellence
+* Secured All India Rank **327** out of 1,50,000 students in JEE Advanced 2020
+* Secured **100 percentile** and achieved All India Rank **22** out of more than 14 lakh students in JEE Mains 2020
+* Secured **4th** rank in the state out of more than 2.5 lakh students in TS EAMCET 2020
+* Secured **5th** rank in the state out of more than 2.5 lakh students in AP EAMCET 2020
+* Secured **International Rank 3** in NSO conducted by Science Olympiad Foundation in the year 2019-20
+* Qualified for Kishore Vaigyanik Protsahan Yojana (**KVPY**) scholarship in both years, 2019-20 and 2018-19
+
 Relevant Courses
 ======
-* EE6110: Adaptive Signal Processing
-* EE4140: Digital Communication Systems
-* EE6133: Multirate Digital Signal Processing
-* EE5141: Introduction to Wireless and Cellular Communication
-* EE5150: Communication Systems
-* EE3110: Probability Foundations for Electrical Engineers
-* EE2004: Digital Signal Processing
-* EE6320: RF Integrated Circuits
-* EE5320: Analog IC Design
-* EE3002: Analog Circuits
-* EE2003: Computer Organization
-* EE3004: Control Systems
-* EE2016: Microprocessor Theory and Lab
+* Adaptive Signal Processing
+* Multirate DSP
+* Digital Communication Systems
+* Communication Networks
+* Wireless Communication
+* Probability & Stochastic Processes
+* Convex Optimization
+* Statistical Machine Learning
+* Diffusion Models
+* Mobile Communication Networks & Systems
+* Advanced Wireless & Radar Systems
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
---->
-
-  
 Service and Leadership
 ======
 * **Saathi Mentor - IIT Madras** \
